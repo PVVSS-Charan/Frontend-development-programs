@@ -1,0 +1,18 @@
+.body,h2{
+  background-color: #04f09d;
+}
+
+.body,p {
+  background-color: #f0ec04;
+}
+
+.body,ol{
+  background-color: #f07e04;
+}
+
+.header,body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzma-s5mqVZzr5hQbZIIxZBGnED8iZgJMsco7hDwfLLKaMtEHo2vc2AA&s=10");
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-position: right top;
+}

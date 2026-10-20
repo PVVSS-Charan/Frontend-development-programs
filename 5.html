@@ -1,0 +1,45 @@
+<!---5. Develop a site navigation layout using semantic tags and divs. -->
+<!doctype html>
+<html lang="en">
+    <!-- The <header> semantic tag defines the top section of the website -->
+<header>
+  <link rel="stylesheet" href="style2.css"> <!-- External -->
+
+  <!-- A <div> groups the branding elements (Logo and Site Title) together -->
+  <div class="brand-container">
+    <img src="data:image/webp;base64,UklGRlIPAABXRUJQVlA4IEYPAABwegCdASpzAeoAPp1KnUulpCmnpvK6aTATiWltJJvYBUApbBmf5itfBdD+Vf84x3b3nEzg73b3vf9Hxn94NCSwexDduSYw91B4/iI7Jabxr1SpFkijhZWjzt7dKGOlUfqcQJzQnKsug2U+lnOCkM6MMf1KqkDxfP/FHJO6MSDkFSONmfbCjAGePBBsmTWV0hJf3ZpOMzSzwmS4vwMeiNYFBKJ3TcIvSR4793i2hXKpOSc5CSoEmR+xuvzqGvWZY4iEY+0WxW9Q3AjKKT+/lKMc1aWloHmiALVnNlDFaruJInp398ujw8qnfJ61woAFqocNUmvk95g4Y9iyLw75M4z0y+2UjQK9xN200l+e4xtB4cZVV+C2CZKoAIf4kqTftOtD4AjfPuyADFoITx+UiaMP+gYussauNI4Lx7cQW5KuhOGF40RUfwUFVRwZmYVPgvo+9FZE7k0uqO4puluzjaox+T8Ba9mzppg3ZHJfH+mIJthZF0LqYHMCM39JvrddTlqe5mKdb4YZ0OVuvzlYMWto0g7zoODr/2jBunXK3/rx+Ynzb1lk7T8rCX3EA4wvDGqqBBJMxxG7De1H35afWBw8u2OQvCIqgfB1khGud/9d2RY7tEnFLoglUfR28I9JwwuyXwBCh3+5NO/Rf4b313jJsgjtuS099FewalLbwxJ6wgleBlLFZBGxKxq22wlg9l00tNvDpXiBfnV5pUx0+TBqTtacu/7f8qLF6m8CVqC0mqW72fDItUAm66HSO5gXOTxuaSZ6MgNvMTZU5TNF5aMpUsOhBiKvoMs2cwopImMRHU3B8t1bpmERAAd2OvtDAvuWGypI2YhrHp9fwY533Q3UyHJ+jMnfaNMog476K5lQef62biaq/omJWedQGBf4A90cg9ZqTCv7Z+sJsmCE3QhevaQcjdk/AMAeY5cAbf6n15a+sFzxryDxkKz6mqiDMQJmjmW06CkKeZHl8aPSELvlM33+gpyH9a7AQbmgR98exP4YnkKr7HiSnT5c8rg2AGV6LJu6FadsfmPXqCSJma4cWekRoqUGD5WdMqwIL8vog79ZJ22JJfmgShR9y/b5tjOYIqyQZRibYfWW8RtoJ96XrYBXwDBciOCW0uE36YXEe57yCY6pCCg82qwAeryjSx6lVFx8OwKCmM6b0aG5mT8gGWMN95SSOuKL0675BVs+DarEjKVc/N/Q4LAy1YE0V1eKPxbnOfQiRtEFj4iLKkFnTdVYdgRQW7hgYePJCkoOBEcwtrx8p+zyK4Aev9/Yox/Q8AZApheZiDDR28QSzU6PUSETzUM+v7xCUKgAAP79FYzhzzZ8XJarOjIvtMQqo0qBf7qWoRYb6CRdvHFdwaiSEqNy0CAeGjruJjjRqA4qWNJZblL0+GGn6AMs+rO89dNPd37UsTMnPWvn5gzEqQerJRw5e9+z75Rm60GeqTHspo0DH4Y75lRaypbNodjTu8dKtNtkSoCbKpStxQT12TM+rfVUL2YbMvLMnAOqMwkEDqezyGRSiiu5J+X8KFb7dmhfHWoWkTMPdb8PQX02bVrvDxee0PpQtFFBJlpG9GW+yjmdNyzGk5hl/JIRd2wvz0JoDA/ePVBErtHzAR2m5hxo2C9ANap6f/PxJjDloooiUTZ1+1+TtAjqY3q18X+m8x7tPX+qZ70cROjICwRTBvmg/Hp5FmEeryxweCK7JvpzPpB2Su4GBboGygaNDbTMRVkQ2ikvaYuz9HjKr38ChsBiQnv6zgY0EQfFTZiQAfMm5FqROVfu/sYJiIk7WTT7GJSHQnIlCdFILLDum6pvmG01ye/7R/byfNrDKRdfbelpGuuclxIM6n9Uem1lKIef5aUaKFk1wJm8aupMGOqgxpMuUxFLW+HmtuA80sYvb4KeQRkR/GvGKiY83i91UmtIPJHFeR4OMszQKAaAhapqxlGtqGPzXPPJYnrNR/MrgdPgl5AosSIj+317uof8ohktK4ZK3IjKufulsOmfBP+pAtsZaKOvObpMgH0+FVPPV+tQTswdGNNf/7ymqoJIemxHWJtDsmsA309IjZHjSbfgwCAtKp7WBsGVF4JXgJf63wQtHQy6moWspLzs6UyoCam7eh7ezyiTkNOiE8YJRvuVGJXVnPdV+TUhyELShLARNyoN0g3KnUY4LRF2GDxkvtrkzm3mLTpcerDK92Tf3DTGFXXbiaA1y8BUilnvdZnpfDtRSiTdRsXenAwDkBziksZ/0uJ6vAAg8IBbI4e1BHoQWLjAxY7zIbbn3kn6bUAw3UTfhvKKIKvwEgk0pJT7RMPMGLUS0nSj+ag1lK4qovPdOXNWXhHf2kebKpupvOHloxU8qrYs0t0sI3PGVTSWPGvMBiFw6zsUJdGFtI2bC+5TFjNPSk8W+bENMEwHjI6JJubSEzf8gPgNiG0ye3Y6qJNC/CGna2RnkTK702rRHoXG+X7nU4Y2xr47qzRoKbqXVKZ+wVq6kf5tCydojHpvvTtWfwnSJJqxn8exxXc65qLjkCeMH9M3fFrc57sBrB7Kxb6Zageh8JbTJski6myXh3LC92by+UNGkcHMgXo2FD66H4ilewoFjdWoYPRe6E5mGrwAut6HVAaKHOYzFQmlIgOFH6QVmC2TU5qWRosoBW2Xp2vJgn++yV6MeliFKrvzioK2UokyXPW1Mc5gAmgS62qp4IJBRVs29CfZDWnqHzyu+cyHdVRoqWXotCuTOA8T1UbzpH7AIh9RtZAgDCH//Exdo/lgDpmHl4/b1pYlR0s0umCweDMwuDghGc4/RvWFnvj/A/dIdxX6vWZTyOUoAItfrH5tu/cgy3Rx3trev6BO1roZDKE75VZl1ODOan1eHSwaM6xgdsglKdCkKtrGmcNYy0OZuABUt3Emk0JH99SHumhEcOJfP9oX/JLEm2N/A+McFKrMHRFhiFJk3CrqZsiinuuUsIQbZWuAFOM1RhMXD0wTcoLP8Pw5+AZHymv01Xa2PsYpnTUqKetandEEfPdXirvsAxwlB0Vy3bOXNAxgy0IkqzVBD9dYwyUNvtJMeFn5bZCLNfA+GZQlYAoZLjxfiwSPF0+TuCstVuNAUAhj3VHhiD7awzx6Tn2L/aO3RD7XxY03kadkXpTTdtKNV+ZoTKbcevQzDtMQEP+r2BSo1VnosNKA33VbEEb1ZJJBLWXrXytJFMTauLbln8AKl8QiErs/otM6QvPbHW50augm6a84w9T5iCQ+NJkHA7hndnPgKzNk+h6DfE9srUfN77SmX8iyyxEY/Pzh/dq4wbbPQpvjlj5zYEu12HxSVSPnhMcxSscXdo4NhywlGIIhU8UjyR8TFXYNiOEkQkbDtkd4WQF+eh5TauYyZGTiyoxROJc7EDFohgOlVLV7wB8YiVxtsOaUzq0zcR+vYh4vhI8HK6t2st7ZH896uGm+i/2KDyDlBFMnzmXIHuKG+aZvHUB+SXNE07aNoLKIRL8NDxqpx4cMWvBFqptqer0pSxhtD8X/MJxbTsJGzs2SiEXp2PH2uqmqW+S7OwGY0IQjgyGADnu9CahNFxCew8mdHpXy6DV5mOS3xZukfSSO0nAmFHzMTfTSpNIU0S/X4H2QpkW7WOK0RZbYOheXGPxhSBifQnkSw8YR/I0Fw4Kh1pNw1PeYv0jZd+QZLy4gmvhgWVttxxUCwOnrz1k/eGVpHo65tvM4A19KxwZ5PTtgEwFAZj4K3/JHEekq3xmHQ1oCmc/7BE0mO44nmjMShahDrZOLSU80TRkDquHh7FSgSefrcVZldz56kB5z/8VDyxsIOjZzLwKcTEw8pDhSSr6V0F6UROXzLwwtPTYpZDI5ty4OzdcUCLxt7EDdVQAI5mLnZrwrb682Ib4REDgi5ZJVYKrtu7xiKh5Dga/VV8ZZKmFZz0iNLDxD42PxE+h2rXUVGhglnbxgiyJqwEE7p2clcdoi2psbHi+hke5SHa8Yf87r00/GUwZYdBg3XZONoif2KYgFQMKlLZ61Cc7aIkPcIdY45rqbqeUUs7QMLEpM/wfeNdWuI4qCl064jkmWXmMRzPgNpNOwO22vbtAi3UUrgVzZbb8i+gQb5jzLoov1EeuieWv78RR1FSmsCj4pLjptFcfGbnvlxxGaWOy4OR9GLK50GAK6GJPbyxlkcIJbuX6PJfni66bk2suc+I8D00/6WbHS0BNAwMQ82BD1w3+zzrGWDXo4aRi9/N2PiRTOvec2k8uN2Jqi0504VA8SeVtC93MhfK70xQPDcqPnV3XBS5Hucnj0lQCqauMmQ9Zg1VpN27su/J8YV68o8eKU2Fcv7OC+dh0iT3qli424GHth27tu2/RjDrwZGtno1j1HaEKRF4p9a+6mMWSIpMKQnXvBzUIP+gZ/aUN88EZBPkMqjYhMPSNdu+hbhjJ1/ImqhRIv+n9nyjSpBpi3mrdoOI78OyFfspdttT6yAzIUOWe5NiXZlKsICQBrLbpqKc/A48c2oo6YW0sCJGA5mvMPIGEmkhy0mxRmtitPqNhvPUWJKGhTEjwTjXX34OvOf1fkqjn0mJAjHI9/Z6QOGZfrypyoKSvYsPk0zlPk9buenShqHeODo89tihSIAu17Axrw6OVmxMSjf2VXPmTc/Go8g3tLvAkb4FwlaMg9SU9T/dH0ilO2G//dXbiysZCD0Seh2mW0D+j6xOyogwABnB5Hvd04qIZ4PTgwAWLsmqMlCjzwDPPW0u0oj6vdnx0V3dmr6BpOuwha6HuSnwbNc7D+vy4j0fVQTHiImdE161TVzgp9SDGXUfzs0l0yIURG9+KTmbFVplcq3tvNqLmN4dXjLIRllgNvM1XH+slW/wDaICLYL//Jv8w5ynRokV+B8Mqm8KmZiMmJSVPpk/1Q+QjiJygmZvcxlRANGJKZwA8fsCBTTpCRCVGcJLnMA75Ib3imOS5l9+YvL0w4O4e/A4Qp1OJ3xSCqVb3XhQTXJUbhHlj9xOOK1OxkJkD6SRJL2uqV7vcw79PicFEZPeQA/JYtjlF/Bgq8yR9yBOqC8G20Stg7Z1jE4dFXC9WSUrpu+JygMsAFDs6vW9GUdpPFQzd14zSh5VyJeWwNLC24vYouAxD5fFH0zAcE8G0DniGIXR1a4LmU6qa8s+ZzUYkLgzYKjBGWOrxzamEUQGdairK0d2KD0FbETBaNwxKBAeMGMrIn1vJklta/S6cCizy4y/86sQ6ktH4mDKKlfA90EIAA" alt="Company Logo" width="50">
+    <h1>My Website</h1>
+  </div>
+
+  <!-- The <nav> semantic tag explicitly designates the primary site navigation links -->
+  <nav aria-label="Main Navigation">
+    
+    <!-- An unordered list <ul> structurally groups the navigation items -->
+    <ul>
+      <!-- Each list item <li> wraps an anchor link <a> -->
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      
+      <!-- A <div> inside a list item can be used to isolate complex items, like a dropdown wrapper -->
+      <li class="dropdown-item">
+        <a href="#products">Products</a>
+        <div class="dropdown-menu">
+          <a href="#software">Software</a>
+          <a href="#hardware">Hardware</a>
+        </div>
+      </li>
+
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </nav>
+
+  <!-- A separate <div> handles quick-action items on the right side of the header -->
+  <div class="header-actions">
+    <button><a href="#login" class="btn">Log In</a></button>
+    <button><a href="#signup" class="btn signup">Sign Up</a></button>
+  </div>
+
+</header>
+</html>

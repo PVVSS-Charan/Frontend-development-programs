@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Two Column Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    .left-column {
+      width: 48%;
+      float: left;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    .right-column {
+      width: 48%;
+      float: right;
+      background-color: #d0e6f7;
+      padding: 10px;
+    }
+
+    /* Clearfix to handle floats */
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div class="container clearfix">
+    <div class="left-column">
+      <h2>Left Column</h2>
+      <p>This is the content of the left column. It uses float: left.</p>
+    </div>
+
+    <div class="right-column">
+      <h2>Right Column</h2>
+      <p>This is the content of the right column. It uses float: right.</p>
+    </div>
+  </div>
+</body>
+</html>
